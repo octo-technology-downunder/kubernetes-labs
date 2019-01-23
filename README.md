@@ -144,7 +144,7 @@ gcloud container clusters get-credentials kube-lab-1 --zone australia-southeast1
 This command will log you into the cluster so that you can issue kubernetes commands on the clusters
 
 - Next, issue the following command `kubectl create -f jlms-deployment.yaml`. This will start the deployment of your application to the kubernetes cluster
-- To see the progress you can keep issusing the command `kubectl get pods`
+- To see the progress you can keep issuing the command `kubectl get pods`
 
 Sample output;
 
